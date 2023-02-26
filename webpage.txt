@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>h1{text-align:center;}
+    </style>
+    </head>
+    <body>
+        <h1>
+            ░N░A░M░A░N░ ░'░ ░S░ ░P░L░A░Y░G░R░O░U░N░D░</h1>
+        <ul>
+            <li><a href="https://www.instagram.com/"><img
+                src="download.jfif" target="display">
+       
+    </body>
+    </html>

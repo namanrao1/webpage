@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<style>
+#h1{
+font-size:14;
+color:red;
+font-style:italics;
+
+}
+table,td,th{
+    border:1px solid black;
+}
+</style>
+<body>
+<h1 id="h1" style="color:red"><b><i>Revised Curriculum for BTech courses</b></i></h1>
+<br>
+<br>
+
+<table>
+<tr><th colspan="2" style="text-align: center;">LIST OF COURSE</th></tr>
+<tr><th colspan="3">COMPUTER SCIENCE & ENGINEERING</th><th colspan="2">ELECTRONICS ENGINEERING</th></tr>
+<tr><td>IMAGE 1</td><td>COMPUTER SCIENCE</td><td><a href="https://www.iiitkottayam.ac.in/#!/btech_cs_home" id="cse">link to iiit curriculum</a></td></tr>
+<tr><td>IMAGE 2</td><td>AI & DATA SCIENCE</td><td><a href="https://www.iiitkottayam.ac.in/#!/btech_ai_home">link to iiit curriculum</a></td><td>IMAGE 4</td><td><a href="https://www.iiitkottayam.ac.in/#!/btech_ec_home" id="ece">link to iiit curriculum</a></td></tr>
+<tr><td>IMAGE 3</td><td>CYBER SECURITY</td><td><a href="https://www.iiitkottayam.ac.in/#!/btech_cyber_home" id="csy">link to iiit curriculum</a></td></tr>
+<tr><td></td><td><button onclick="onc()">BUTTON 1</button></td><td></td><td><button>BUTTON 2</button></td></tr>
+	
+</table>
+</body>
+<script>
+    var a=document.getElementById("cse");
+    console.log(a);
+    var b=document.getElementById("ece");
+    console.log(b);
+    function onc()
+    {
+        alert("Academic year:2022-2023");
+    }
+    var b=document.getElementById("ece");
+    b.setAttribute("href","https://www.iiitkottayam.ac.in/#!/btech_cs_home");
+    console.log(b);
+    var d=document.getElementById("csy");
+    d.setAttribute("href","");
+    console.log(d);
+
+</script>
+</html>
